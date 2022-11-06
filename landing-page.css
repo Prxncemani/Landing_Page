@@ -29,8 +29,8 @@ body {
 }
 
 .sign-up {
-    width: 400px
-    padd
+    width: 400px;
+    padding-bottom: 40px;
 }
 
 .description {
@@ -64,6 +64,39 @@ ul {
 
 /* section 2 */ 
 
+ section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ }
+ 
+ .info-pics {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+ }
+
+ .cards {
+
+ }
+
+ .section2 h2 {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+ }
+
+ .section2 img {
+    width: 170px;
+    height: 170px;
+ }
+
+
+ .section2 p {
+    width: 170px;
+    text-align: center;
+ }
 
 
 
@@ -73,6 +106,35 @@ ul {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
 
 /* miscellaneous */
 
@@ -91,4 +153,10 @@ a {
     border-radius: 4px;
     padding: 3px 16px;
     color: white;
+ }
+
+ p {
+    padding: 0;
+    margin: 0;
+    width: inherit;
  }
