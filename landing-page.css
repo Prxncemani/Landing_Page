@@ -24,14 +24,20 @@ body {
 
 .header {
     display: flex;
-    
+    align-items: center;
+    justify-content: space-around;
+}
+
+.sign-up {
+    width: 400px
+    padd
 }
 
 .description {
     display: flex;
     justify-content: center;
 }
-
+ 
 .section1 h2 {
     font-size: 24px;
     color: #f9faf8;
@@ -53,6 +59,17 @@ ul {
     display: flex;
     gap: 16px;
 }
+ 
+/* Section 1 */
+
+/* section 2 */ 
+
+
+
+
+
+
+
 
 
 
@@ -69,7 +86,9 @@ a {
 
  button {
     background-color: #3382f6;
+    font-size: 18px;
     border: none;
     border-radius: 4px;
+    padding: 3px 16px;
     color: white;
  }
