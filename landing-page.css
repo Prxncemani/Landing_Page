@@ -177,8 +177,20 @@ ul {
     color: #f9faf8;
 } 
 
+/* section 4 */
 
 
+/* footer */
+
+.footer {
+    background-color: #1f2937;
+    font-size: 18px;
+    color: #f9faf8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
 
 
 
