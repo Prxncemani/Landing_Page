@@ -26,11 +26,20 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-around;
+    margin-bottom: 80px;
 }
 
 .sign-up {
     width: 400px;
     padding-bottom: 40px;
+}
+
+.part2 {
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 120px;
+    gap: 16px;
 }
 
 .description {
@@ -47,6 +56,11 @@ body {
     font-size: 48px;
     color: #f9faf8;
     font-weight: 900;
+    margin: 0;
+}
+
+.section1 img {
+    flex-shrink: 1;
 }
 
 .section1 p, a {
@@ -67,7 +81,7 @@ body {
 ul {
     list-style: none;
     display: flex;
-    gap: 16px;
+    gap: 24px;
 }
  
 /* Section 1 */
@@ -84,7 +98,7 @@ ul {
  .info-pics {
     display: flex;
     justify-content: center;
-    gap: 24px;
+    gap: 32px;
  }
 
  
@@ -93,6 +107,7 @@ ul {
     font-size: 36px;
     font-weight: 900;
     color: #1f2937;
+    margin-bottom: 50px;
  }
 
  .section2 img {
@@ -102,6 +117,7 @@ ul {
 
 
  .section2 p {
+    font-size: 18px;
     width: 170px;
     text-align: center;
  }
