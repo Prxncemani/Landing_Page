@@ -66,6 +66,7 @@ body {
 .section1 p, a {
     color: #e5e7eb;
     font-size: 18px;
+    padding-bottom: 8px;
 }
 
 
@@ -73,8 +74,8 @@ body {
     background-color: #3382f6;
     font-size: 18px;
     border: none;
-    border-radius: 4px;
-    padding: 3px 16px;
+    border-radius: 8px;
+    padding: 6px 32px;
     color: white;
  }
 
@@ -176,8 +177,8 @@ ul {
     background-color: #3382f6;
     font-size: 18px;
     border: 2px solid white;
-    border-radius: 4px;
-    padding: 3px 16px;
+    border-radius: 8px;
+    padding: 6px 32px;
     color: white;
 
 }
